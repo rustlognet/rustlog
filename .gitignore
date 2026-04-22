@@ -1,0 +1,15 @@
+# Dependencies
+node_modules
+
+# VS Code
+.history
+.vscode
+
+# Environment Variables
+.env
+
+# Mac OS
+.DS_Store
+
+# Obsidian
+.obsidian
