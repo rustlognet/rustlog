@@ -1,5 +1,5 @@
-name: Deploy Eleventy with GitHub Pages
-
+name:  Deploy Eleventy with GitHub Pages
+  
 on:
   push:
     branches: ["main"]
