@@ -1,1 +1,1 @@
-# My Eleventy Project
+My project
