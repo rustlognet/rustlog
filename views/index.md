@@ -1,1 +1,4 @@
+---
+layout: base
+---
 My project
