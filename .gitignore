@@ -14,5 +14,5 @@ node_modules
 # Obsidian
 .obsidian
 
-# Other
-notes
+# 11ty output
+dist
