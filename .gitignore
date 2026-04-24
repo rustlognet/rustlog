@@ -1,6 +1,9 @@
 # Dependencies
 node_modules
 
+# 11ty output
+dist
+
 # VS Code
 .history
 .vscode
