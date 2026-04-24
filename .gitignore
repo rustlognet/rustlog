@@ -14,5 +14,3 @@ node_modules
 # Obsidian
 .obsidian
 
-# 11ty output
-dist
