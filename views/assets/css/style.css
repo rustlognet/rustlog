@@ -12,7 +12,7 @@
     --footer-height: 60px;
 
     /* Font size */
-    --font-base: 1rem;
+    --font-base: 1.0625rem;
     --font-sm: calc(var(--font-base) * 0.9);
     --font-lg: calc(var(--font-base) * 1.1);
     --font-xl: calc(var(--font-base) * 1.15);
@@ -29,6 +29,7 @@ html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     scrollbar-gutter: stable;
+    font-size: 100%;
 }
 
 html,
@@ -45,6 +46,7 @@ body {
     color: var(--text);
     background-color: var(--background);
     font-family: 'Nunito', system-ui, sans-serif;
+    line-height: 1.5;
 }
 
 header,
@@ -65,6 +67,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: var(--background);
 }
 
 header a {
@@ -98,3 +101,4 @@ a {
 a:hover {
     color: var(--link-hover);
 }
+
