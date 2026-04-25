@@ -12,7 +12,7 @@
     --footer-height: 60px;
 
     /* Font size */
-    --font-base: 1.1rem;
+    --font-base: 1rem;
     --font-sm: calc(var(--font-base) * 0.9);
     --font-lg: calc(var(--font-base) * 1.1);
     --font-xl: calc(var(--font-base) * 1.15);
@@ -44,6 +44,7 @@ body {
     font-size: var(--font-base);
     color: var(--text);
     background-color: var(--background);
+    font-family: 'Nunito', system-ui, sans-serif;
 }
 
 header,
@@ -68,6 +69,7 @@ header {
 
 header a {
     font-size: var(--font-xl);
+    font-weight: 700;
 
 }
 
