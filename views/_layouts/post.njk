@@ -1,0 +1,17 @@
+{% extends "views/_layouts/base.njk" %}
+
+{% block content %}
+
+<article class="post">
+
+<div class="post-title">{{ title }}</div>
+
+<div class="post-date">{{ date | date }}</div>
+
+<div class="post-content">{{ content | safe }}</div>
+
+</article>
+
+{% include "partials/pagination.njk" %}
+
+{% endblock %}

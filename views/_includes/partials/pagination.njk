@@ -1,0 +1,16 @@
+<nav class="post-pagination">
+  {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+  {% set nextPost = collections.post | getNextCollectionItem(page) %}
+
+  <div class="prev">
+    {% if previousPost %}
+      <a href="{{ previousPost.url }}">Previous</a>
+    {% endif %}
+  </div>
+
+  <div class="next">
+    {% if nextPost %}
+      <a href="{{ nextPost.url }}">Next</a>
+    {% endif %}
+  </div>
+</nav>
